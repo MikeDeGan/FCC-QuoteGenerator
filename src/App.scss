@@ -1,0 +1,16 @@
+#quote-box {
+  background: teal;
+  width: 30vw;
+  margin: 20vh auto;
+  padding: 20px;
+
+  #text {
+    font-size: 3em;
+    color: #fff;
+  }
+
+  #author {
+    color: lighten(#fff, 10);
+    float: right;
+  }
+}
