@@ -1,7 +1,7 @@
 #quote-box {
   background: teal;
-  width: 30vw;
-  margin: 20vh auto;
+  width: 60vw;
+  margin: 20vh auto 10vh auto;
   padding: 20px;
 
   #text {
@@ -12,5 +12,16 @@
   #author {
     color: lighten(#fff, 10);
     float: right;
+  }
+}
+
+#new-quote {
+  display: block;
+  margin: 20px auto;
+  font-size: 2em;
+  padding: 10px;
+
+  &:hover {
+    background: teal;
   }
 }
